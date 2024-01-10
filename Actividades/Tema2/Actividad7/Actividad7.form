@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="gLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="rLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="bLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="bTextField" min="-2" max="-2" attributes="0"/>
+                          <Component id="rTextField" min="-2" max="-2" attributes="0"/>
+                          <Component id="gTextField" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="xLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="yLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="27" pref="27" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="xTextField" max="32767" attributes="0"/>
+                          <Component id="yTextField" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="panelButton" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="306" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="24" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="xLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="xTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="yLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="yTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="gLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="gTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="bLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="bTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Component id="panelButton" min="-2" pref="45" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="panelButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Crear panel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="panelButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="xLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Posici&#xf3;n X"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="yLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Posici&#xf3;n Y"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Color R"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="gLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Color G"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Color B"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="xTextField">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="200"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="yTextField">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="75"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="rTextField">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="255"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="gTextField">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="255"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="bTextField">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="255"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
